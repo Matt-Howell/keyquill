@@ -1,20 +1,31 @@
 {
-  "name": "q",
-  "version": "0.1.0",
+  "name": "ss",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
-    "react": "^18",
-    "react-dom": "^18",
-    "next": "13.5.4"
+    "@chakra-ui/react": "^2.7.1",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@supabase/supabase-js": "^2.8.0",
+    "chakra-react-select": "^4.6.0",
+    "framer-motion": "^8.5.2",
+    "next": "13.2.4",
+    "prism-react-renderer": "^2.3.1",
+    "prismjs": "^1.29.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-flagkit": "^2.0.4",
+    "react-icons": "^4.8.0",
+    "recharts": "^2.3.2"
   },
   "devDependencies": {
-    "eslint": "^8",
-    "eslint-config-next": "13.5.4"
+    "eslint": "8.32.0",
+    "eslint-config-next": "13.1.5"
   }
 }
